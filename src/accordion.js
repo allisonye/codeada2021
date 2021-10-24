@@ -1,11 +1,25 @@
 import React from 'react';
 import './index.css';
+import Accordion from 'react-bootstrap/Accordion'
 
 class Accordion extends React.Component {
   render() {
     return (
       <div>
-        {/* html code */}
+        <Accordion defaultActiveKey="0">
+  <Accordion.Item eventKey="0">
+    <Accordion.Header>Cafe a la Crumb</Accordion.Header>
+    <Accordion.Body>
+      Put form and quantity number here. 
+    </Accordion.Body>
+  </Accordion.Item>
+  <Accordion.Item eventKey="1">
+    <Accordion.Header>Fusion 48</Accordion.Header>
+    <Accordion.Body>
+    Put form and quantity number here. 
+    </Accordion.Body>
+  </Accordion.Item>
+</Accordion>
       </div>
     );
   }
