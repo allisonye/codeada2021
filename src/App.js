@@ -11,6 +11,7 @@ function App() {
       <h1 id="header">ISR Online Orders</h1>
       <p id="subhead">Order Unhealthy Dining Options Here!</p>
       <SearchBar />
+      <br />
       <table className="table">
         <tr>
           <th>Breakfast</th>
@@ -24,14 +25,6 @@ function App() {
           <th><Restaurants /></th>
           <th><Restaurants /></th>
         </tr>
-        {/*<Restaurant name="Cafe a la Crumb"/>
-        <Restaurant name="Fusion 48"/>
-        <Restaurant name="Grains and Greens"/>
-        <Restaurant name="Grillworks"/>
-        <Restaurant name="Inclusive Solutions"/>
-        <Restaurant name="Latitude"/>
-        <Restaurant name="Saporito"/>
-  <Restaurant name="Saporito Pizza"/>*/}
       </table>
       <br />
       <OrderForm />

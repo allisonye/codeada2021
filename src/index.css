@@ -151,5 +151,5 @@ code {
 .table {
   margin-left: auto;
   margin-right: auto;
-  vertical-align: auto;
+  vertical-align: top;
 }

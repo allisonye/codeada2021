@@ -1,18 +1,18 @@
 import React from 'react';
 import './index.css';
-import AccordionComponent from './accordion.js';
+import AccordionComponent from './Accordion.js';
 class Restaurants extends React.Component {
     render() {
         return (
           <div>
-            <AccordionComponent name="Cafe a la Crumb" />
-            <AccordionComponent name="Fusion 48" />
-            <AccordionComponent name="Grains and Greens" />
-            <AccordionComponent name="Grillworks" />
-            <AccordionComponent name="Inclusive Solutions" />
-            <AccordionComponent name="Latitude" />
-            <AccordionComponent name="Saporito" />
-            <AccordionComponent name="Saporito Pizza" />
+            <AccordionComponent name="Cafe a la Crumb" item1="" item2="" />
+            <AccordionComponent name="Fusion 48" item1="" item2="" />
+            <AccordionComponent name="Grains and Greens" item1="" item2="" />
+            <AccordionComponent name="Grillworks" item1="" item2="" />
+            <AccordionComponent name="Inclusive Solutions" item1="" item2="" />
+            <AccordionComponent name="Latitude" item1="" item2="" />
+            <AccordionComponent name="Saporito" item1="" item2="" />
+            <AccordionComponent name="Saporito Pizza" item1="" item2="" />
           </div>
         );
     }
