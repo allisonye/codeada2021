@@ -1,8 +1,9 @@
 import React from 'react';
 import { styled, keyframes } from '@stitches/react';
-import { violet, blackA, mauve } from '@radix-ui/colors';
+import { pink, blackA, mauve } from '@radix-ui/colors';
 import { ChevronDownIcon } from '@radix-ui/react-icons';
 import * as AccordionPrimitive from '@radix-ui/react-accordion';
+import CheckboxComponent from './Checkbox.js';
 
 const slideDown = keyframes({
   from: { height: 0 },
@@ -60,7 +61,7 @@ const StyledTrigger = styled(AccordionPrimitive.Trigger, {
   justifyContent: 'space-between',
   fontSize: 15,
   lineHeight: 1,
-  color: violet.violet11,
+  color: pink.pink11,
   boxShadow: `0 1px 0 ${mauve.mauve6}`,
   '&[data-state="closed"]': { backgroundColor: 'white' },
   '&[data-state="open"]': { backgroundColor: 'white' },
@@ -86,7 +87,7 @@ const StyledContentText = styled('div', {
 });
 
 const StyledChevron = styled(ChevronDownIcon, {
-  color: violet.violet10,
+  color: pink.pink10,
   transition: 'transform 300ms cubic-bezier(0.87, 0, 0.13, 1)',
   '[data-state=open] &': { transform: 'rotate(180deg)' },
 });
@@ -115,8 +116,8 @@ class AccordionComponent extends React.Component {
       <Accordion type="single" defaultValue="item-1" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger>{this.props.name}</AccordionTrigger>
-          <AccordionContent>{this.props.item1}</AccordionContent>
-          <AccordionContent>{this.props.item2}</AccordionContent>
+          <AccordionContent><CheckboxComponent name={this.props.item1} /></AccordionContent>
+          <AccordionContent><CheckboxComponent name={this.props.item2} /></AccordionContent>
         </AccordionItem>
       </Accordion>
     );
