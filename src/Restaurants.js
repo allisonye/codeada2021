@@ -5,14 +5,14 @@ class Restaurants extends React.Component {
     render() {
         return (
           <div>
-            <AccordionComponent name="Cafe a la Crumb" item1="" item2="" />
-            <AccordionComponent name="Fusion 48" item1="" item2="" />
-            <AccordionComponent name="Grains and Greens" item1="" item2="" />
-            <AccordionComponent name="Grillworks" item1="" item2="" />
-            <AccordionComponent name="Inclusive Solutions" item1="" item2="" />
-            <AccordionComponent name="Latitude" item1="" item2="" />
-            <AccordionComponent name="Saporito" item1="" item2="" />
-            <AccordionComponent name="Saporito Pizza" item1="" item2="" />
+            <AccordionComponent name="Cafe a la Crumb" item1="Lemon Bars" item2="Chocolate Chip Cookies" />
+            <AccordionComponent name="Fusion 48" item1="Pho" item2="Soup" />
+            <AccordionComponent name="Grains and Greens" item1="Tomato Soup" item2="Salad" />
+            <AccordionComponent name="Grillworks" item1="Burgers" item2="Waffle Fries" />
+            <AccordionComponent name="Inclusive Solutions" item1="Blueberry Muffins" item2="Avocado Slices" />
+            <AccordionComponent name="Latitude" item1="Fajitas" item2="Taco Toppings" />
+            <AccordionComponent name="Saporito" item1="Alfredo Pasta" item2="Breadsticks" />
+            <AccordionComponent name="Saporito Pizza" item1="Hawaiin Pizza" item2="Three Cheese Pizza" />
           </div>
         );
     }
