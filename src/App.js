@@ -19,7 +19,7 @@ function App() {
           <th>Late Night</th>
         </tr>
         <tr>
-          <th></th>
+          <th><Restaurants /></th>
         </tr>
         {/*<Restaurant name="Cafe a la Crumb"/>
         <Restaurant name="Fusion 48"/>
