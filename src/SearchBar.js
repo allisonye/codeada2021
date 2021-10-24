@@ -6,14 +6,11 @@ class SearchBar extends React.Component {
         return (
                 <div class="topnav">
                 <a class="active" href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-<<<<<<< HEAD
-                <input type="text" placeholder="Search">
+                <a href="#about">Breakfast</a>
+                <a href="#contact">Lunch</a>
+                <a href="#contact">Dinner</a>
+                <input type="text" placeholder="Search" />
                 <button type="submit"><i class="fa fa-search"></i></button>
-=======
-                <input type="text" placeholder="Search.." />
->>>>>>> f879dacbac6a31d4b438e3986fdb080c0d550803
             </div>
         );
     }
