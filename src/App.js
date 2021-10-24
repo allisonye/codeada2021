@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Restaurant from './Restaurant.js';
+import SearchBar from './SearchBar.js';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <a href="https://ibb.co/2Z7dMpX"><img src="https://i.ibb.co/phvdKkC/isr-dining-image.png" alt="isr-dining-image" border="0" /></a>
       <h1 id="header">ISR Online Orders</h1>
       <p id="subhead">Order Unhealthy Dining Options Here!</p>
+      <SearchBar />
       <div>
         <Restaurant name="Cafe a la Crumb"/>
         <Restaurant name="Fusion 48"/>

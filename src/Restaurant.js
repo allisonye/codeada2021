@@ -1,5 +1,5 @@
 import React from "react";
-import './index.css'
+import './index.css';
 class Restaurant extends React.Component {
     render() {
         return (<Menu name={this.props.name} />);
