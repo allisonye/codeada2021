@@ -41,7 +41,7 @@ class CheckboxComponent extends React.Component {
             <div>
                 <form>
                     <Flex css={{ alignItems: 'center' }}>
-                        <Checkbox defaultChecked id="c1">
+                        <Checkbox defaultChecked={false} id="c1">
                             <CheckboxIndicator>
                                 <CheckIcon />
                             </CheckboxIndicator>
