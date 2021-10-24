@@ -1,15 +1,20 @@
-import React from "react";
+import React from 'react';
 import './index.css';
-class Restaurant extends React.Component {
+import AccordionComponent from './accordion.js';
+class Restaurants extends React.Component {
     render() {
-        return (<Menu name={this.props.name} />);
+        return (
+          <div>
+            <AccordionComponent name={this.props.name} />
+          </div>
+        );
     }
 }
 
-const Menu = (props) => {
+/*const Menu = (props) => {
     return (
         <div>
-            <button class="accordion">{props.name}</button>
+            <AccordionComponent name={props.name} />
             <div class="panel">
                 <p>Example 1</p>
                 <p>Example 2</p>
@@ -17,25 +22,25 @@ const Menu = (props) => {
             </div>
         </div>
     );
-}
+}*/
 
-var acc = document.getElementsByClassName("accordion");
+/*var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     /* Toggle between adding and removing the "active" class,
-    to highlight the button that controls the panel */
+    to highlight the button that controls the panel 
     this.classList.toggle("active");
 
-    /* Toggle between hiding and showing the active panel */
+    /* Toggle between hiding and showing the active panel 
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
     } else {
       panel.style.display = "block";
     }
-  });
-}
+  });*/
 
-export default Restaurant;
+
+export default Restaurants;
