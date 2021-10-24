@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Restaurant from './Restaurant.js';
 import SearchBar from './SearchBar.js';
+import OrderForm from './OrderForm.js';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <Restaurant name="Saporito"/>
         <Restaurant name="Saporito Pizza"/>
       </div>
+      <br />
+      <OrderForm />
     </div>
   );
 }
